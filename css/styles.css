@@ -2845,20 +2845,20 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #ffc800;
-  --bs-btn-border-color: #ffc800;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #d9aa00;
-  --bs-btn-hover-border-color: #cca000;
-  --bs-btn-focus-shadow-rgb: 255, 208, 38;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #cca000;
-  --bs-btn-active-border-color: #bf9600;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #ffc800;
-  --bs-btn-disabled-border-color: #ffc800;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #18175E;
+    --bs-btn-border-color: #18175E;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #333273;
+    --bs-btn-hover-border-color: #333273;
+    --bs-btn-focus-shadow-rgb: 255, 208, 38;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #18175E;
+    --bs-btn-active-border-color: #333273;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #18175E;
+    --bs-btn-disabled-border-color: #18175E;
 }
 
 .btn-secondary {
@@ -8127,7 +8127,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #18175E, var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {
@@ -10947,7 +10947,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/FONDON.jpg");
+  background-image: url("../assets/img/FONDON2.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11001,7 +11001,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: #18174E;
   align-items: center;
   justify-content: center;
   opacity: 0;
